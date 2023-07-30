@@ -28,7 +28,7 @@ const WeatherProvider = ({ children }) => {
       const { data } = await axios.get(url);
       const { lat, lon } = data[0];
 
-      const urlWeather = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${appId}`;
+      const urlWeather = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${appId}`;
       const { data: weather } = await axios(urlWeather);
       setResult(weather);
     } catch (error) {
