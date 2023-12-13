@@ -1,0 +1,2 @@
+proyecto de clima retomado para poder terminarlo, se le incluyo algunas mejoras a los archivos
+ya en produccion
